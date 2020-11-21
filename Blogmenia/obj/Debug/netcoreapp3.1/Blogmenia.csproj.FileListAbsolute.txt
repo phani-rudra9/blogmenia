@@ -213,3 +213,4 @@ E:\Satinder singh\GIT\blogmenia\Blogmenia\obj\Debug\netcoreapp3.1\staticwebasset
 E:\Satinder singh\GIT\blogmenia\Blogmenia\obj\Debug\netcoreapp3.1\Blogmenia.dll
 E:\Satinder singh\GIT\blogmenia\Blogmenia\obj\Debug\netcoreapp3.1\Blogmenia.pdb
 E:\Satinder singh\GIT\blogmenia\Blogmenia\obj\Debug\netcoreapp3.1\Blogmenia.genruntimeconfig.cache
+E:\Satinder singh\GIT\blogmenia\Blogmenia\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Pages\Featured\Index.cshtml.g.cs

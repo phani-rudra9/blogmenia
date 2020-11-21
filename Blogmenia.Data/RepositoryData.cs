@@ -250,5 +250,10 @@ namespace Blogmenia.Data
         {
             return db.Post.FromSqlRaw("Call GetPost({0},{1},{2},{3})", Filtertype, Slug, pageIndex, rowCount);
         }
+
+        public IEnumerable<Post> GetAllFeaturedPost()
+        {
+            return db.Post.AsNoTracking().Where(m => m.IsFeatured == "Y");
+        }
     }
 }

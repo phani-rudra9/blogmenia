@@ -26,7 +26,7 @@ CREATE TABLE `__efmigrationshistory` (
   `MigrationId` varchar(95) NOT NULL,
   `ProductVersion` varchar(32) NOT NULL,
   PRIMARY KEY (`MigrationId`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8_unicode_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -48,13 +48,13 @@ DROP TABLE IF EXISTS `aspnetroleclaims`;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `aspnetroleclaims` (
   `Id` int(11) NOT NULL AUTO_INCREMENT,
-  `RoleId` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL,
-  `ClaimType` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci,
-  `ClaimValue` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci,
+  `RoleId` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8_unicode_ci NOT NULL,
+  `ClaimType` longtext CHARACTER SET utf8mb4 COLLATE utf8_unicode_ci,
+  `ClaimValue` longtext CHARACTER SET utf8mb4 COLLATE utf8_unicode_ci,
   PRIMARY KEY (`Id`),
   KEY `IX_AspNetRoleClaims_RoleId` (`RoleId`),
   CONSTRAINT `FK_AspNetRoleClaims_AspNetRoles_RoleId` FOREIGN KEY (`RoleId`) REFERENCES `aspnetroles` (`Id`) ON DELETE CASCADE
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8_unicode_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -74,13 +74,13 @@ DROP TABLE IF EXISTS `aspnetroles`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `aspnetroles` (
-  `Id` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL,
-  `Name` varchar(256) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci DEFAULT NULL,
-  `NormalizedName` varchar(256) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci DEFAULT NULL,
-  `ConcurrencyStamp` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci,
+  `Id` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8_unicode_ci NOT NULL,
+  `Name` varchar(256) CHARACTER SET utf8mb4 COLLATE utf8_unicode_ci DEFAULT NULL,
+  `NormalizedName` varchar(256) CHARACTER SET utf8mb4 COLLATE utf8_unicode_ci DEFAULT NULL,
+  `ConcurrencyStamp` longtext CHARACTER SET utf8mb4 COLLATE utf8_unicode_ci,
   PRIMARY KEY (`Id`),
   UNIQUE KEY `RoleNameIndex` (`NormalizedName`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8_unicode_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -101,13 +101,13 @@ DROP TABLE IF EXISTS `aspnetuserclaims`;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `aspnetuserclaims` (
   `Id` int(11) NOT NULL AUTO_INCREMENT,
-  `UserId` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL,
-  `ClaimType` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci,
-  `ClaimValue` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci,
+  `UserId` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8_unicode_ci NOT NULL,
+  `ClaimType` longtext CHARACTER SET utf8mb4 COLLATE utf8_unicode_ci,
+  `ClaimValue` longtext CHARACTER SET utf8mb4 COLLATE utf8_unicode_ci,
   PRIMARY KEY (`Id`),
   KEY `IX_AspNetUserClaims_UserId` (`UserId`),
   CONSTRAINT `FK_AspNetUserClaims_AspNetUsers_UserId` FOREIGN KEY (`UserId`) REFERENCES `aspnetusers` (`Id`) ON DELETE CASCADE
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8_unicode_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -127,14 +127,14 @@ DROP TABLE IF EXISTS `aspnetuserlogins`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `aspnetuserlogins` (
-  `LoginProvider` varchar(128) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL,
-  `ProviderKey` varchar(128) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL,
-  `ProviderDisplayName` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci,
-  `UserId` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL,
+  `LoginProvider` varchar(128) CHARACTER SET utf8mb4 COLLATE utf8_unicode_ci NOT NULL,
+  `ProviderKey` varchar(128) CHARACTER SET utf8mb4 COLLATE utf8_unicode_ci NOT NULL,
+  `ProviderDisplayName` longtext CHARACTER SET utf8mb4 COLLATE utf8_unicode_ci,
+  `UserId` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8_unicode_ci NOT NULL,
   PRIMARY KEY (`LoginProvider`,`ProviderKey`),
   KEY `IX_AspNetUserLogins_UserId` (`UserId`),
   CONSTRAINT `FK_AspNetUserLogins_AspNetUsers_UserId` FOREIGN KEY (`UserId`) REFERENCES `aspnetusers` (`Id`) ON DELETE CASCADE
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8_unicode_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -154,13 +154,13 @@ DROP TABLE IF EXISTS `aspnetuserroles`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `aspnetuserroles` (
-  `UserId` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL,
-  `RoleId` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL,
+  `UserId` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8_unicode_ci NOT NULL,
+  `RoleId` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8_unicode_ci NOT NULL,
   PRIMARY KEY (`UserId`,`RoleId`),
   KEY `IX_AspNetUserRoles_RoleId` (`RoleId`),
   CONSTRAINT `FK_AspNetUserRoles_AspNetRoles_RoleId` FOREIGN KEY (`RoleId`) REFERENCES `aspnetroles` (`Id`) ON DELETE CASCADE,
   CONSTRAINT `FK_AspNetUserRoles_AspNetUsers_UserId` FOREIGN KEY (`UserId`) REFERENCES `aspnetusers` (`Id`) ON DELETE CASCADE
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8_unicode_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -180,26 +180,26 @@ DROP TABLE IF EXISTS `aspnetusers`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `aspnetusers` (
-  `Id` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL,
-  `UserName` varchar(256) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci DEFAULT NULL,
-  `NormalizedUserName` varchar(256) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci DEFAULT NULL,
-  `Email` varchar(256) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci DEFAULT NULL,
-  `NormalizedEmail` varchar(256) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci DEFAULT NULL,
+  `Id` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8_unicode_ci NOT NULL,
+  `UserName` varchar(256) CHARACTER SET utf8mb4 COLLATE utf8_unicode_ci DEFAULT NULL,
+  `NormalizedUserName` varchar(256) CHARACTER SET utf8mb4 COLLATE utf8_unicode_ci DEFAULT NULL,
+  `Email` varchar(256) CHARACTER SET utf8mb4 COLLATE utf8_unicode_ci DEFAULT NULL,
+  `NormalizedEmail` varchar(256) CHARACTER SET utf8mb4 COLLATE utf8_unicode_ci DEFAULT NULL,
   `EmailConfirmed` tinyint(1) NOT NULL,
-  `PasswordHash` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci,
-  `SecurityStamp` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci,
-  `ConcurrencyStamp` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci,
-  `PhoneNumber` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci,
+  `PasswordHash` longtext CHARACTER SET utf8mb4 COLLATE utf8_unicode_ci,
+  `SecurityStamp` longtext CHARACTER SET utf8mb4 COLLATE utf8_unicode_ci,
+  `ConcurrencyStamp` longtext CHARACTER SET utf8mb4 COLLATE utf8_unicode_ci,
+  `PhoneNumber` longtext CHARACTER SET utf8mb4 COLLATE utf8_unicode_ci,
   `PhoneNumberConfirmed` tinyint(1) NOT NULL,
   `TwoFactorEnabled` tinyint(1) NOT NULL,
   `LockoutEnd` datetime(6) DEFAULT NULL,
   `LockoutEnabled` tinyint(1) NOT NULL,
   `AccessFailedCount` int(11) NOT NULL,
-  `WebsiteURL` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci,
+  `WebsiteURL` longtext CHARACTER SET utf8mb4 COLLATE utf8_unicode_ci,
   PRIMARY KEY (`Id`),
   UNIQUE KEY `UserNameIndex` (`NormalizedUserName`),
   KEY `EmailIndex` (`NormalizedEmail`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8_unicode_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -220,13 +220,13 @@ DROP TABLE IF EXISTS `aspnetusertokens`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `aspnetusertokens` (
-  `UserId` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL,
-  `LoginProvider` varchar(128) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL,
-  `Name` varchar(128) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL,
-  `Value` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci,
+  `UserId` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8_unicode_ci NOT NULL,
+  `LoginProvider` varchar(128) CHARACTER SET utf8mb4 COLLATE utf8_unicode_ci NOT NULL,
+  `Name` varchar(128) CHARACTER SET utf8mb4 COLLATE utf8_unicode_ci NOT NULL,
+  `Value` longtext CHARACTER SET utf8mb4 COLLATE utf8_unicode_ci,
   PRIMARY KEY (`UserId`,`LoginProvider`,`Name`),
   CONSTRAINT `FK_AspNetUserTokens_AspNetUsers_UserId` FOREIGN KEY (`UserId`) REFERENCES `aspnetusers` (`Id`) ON DELETE CASCADE
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8_unicode_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -247,12 +247,12 @@ DROP TABLE IF EXISTS `categories`;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `categories` (
   `CategoryId` int(11) NOT NULL AUTO_INCREMENT,
-  `Name` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL,
-  `Slug` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL,
-  `Description` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci,
-  `IsActive` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci,
+  `Name` longtext CHARACTER SET utf8mb4 COLLATE utf8_unicode_ci NOT NULL,
+  `Slug` longtext CHARACTER SET utf8mb4 COLLATE utf8_unicode_ci NOT NULL,
+  `Description` longtext CHARACTER SET utf8mb4 COLLATE utf8_unicode_ci,
+  `IsActive` longtext CHARACTER SET utf8mb4 COLLATE utf8_unicode_ci,
   PRIMARY KEY (`CategoryId`)
-) ENGINE=InnoDB AUTO_INCREMENT=305 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=305 DEFAULT CHARSET=utf8mb4 COLLATE=utf8_unicode_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -275,24 +275,24 @@ DROP TABLE IF EXISTS `comments`;
 CREATE TABLE `comments` (
   `CommentId` int(11) NOT NULL AUTO_INCREMENT,
   `PostId` int(11) NOT NULL,
-  `AuthorEmail` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL,
-  `AuthorWebsite` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci,
-  `AuthorIp` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci,
+  `AuthorEmail` longtext CHARACTER SET utf8mb4 COLLATE utf8_unicode_ci NOT NULL,
+  `AuthorWebsite` longtext CHARACTER SET utf8mb4 COLLATE utf8_unicode_ci,
+  `AuthorIp` longtext CHARACTER SET utf8mb4 COLLATE utf8_unicode_ci,
   `CommentDate` datetime(6) NOT NULL,
   `CommentDateGmt` datetime(6) NOT NULL,
-  `Message` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL,
-  `Karma` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci,
-  `Status` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci,
-  `CommentAgent` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci,
-  `Type` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci,
+  `Message` longtext CHARACTER SET utf8mb4 COLLATE utf8_unicode_ci NOT NULL,
+  `Karma` longtext CHARACTER SET utf8mb4 COLLATE utf8_unicode_ci,
+  `Status` longtext CHARACTER SET utf8mb4 COLLATE utf8_unicode_ci,
+  `CommentAgent` longtext CHARACTER SET utf8mb4 COLLATE utf8_unicode_ci,
+  `Type` longtext CHARACTER SET utf8mb4 COLLATE utf8_unicode_ci,
   `ParentCommentId` int(11) DEFAULT NULL,
   `UserId` int(11) DEFAULT NULL,
   `IsAdmin` int(11) DEFAULT NULL,
-  `AuthorName` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci,
+  `AuthorName` longtext CHARACTER SET utf8mb4 COLLATE utf8_unicode_ci,
   PRIMARY KEY (`CommentId`),
   KEY `FK_Comments001_PostId` (`PostId`),
   CONSTRAINT `FK_Comments001_PostId` FOREIGN KEY (`PostId`) REFERENCES `post` (`Id`) ON DELETE CASCADE
-) ENGINE=InnoDB AUTO_INCREMENT=986 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=986 DEFAULT CHARSET=utf8mb4 COLLATE=utf8_unicode_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -314,14 +314,14 @@ DROP TABLE IF EXISTS `demos`;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `demos` (
   `DemoId` int(11) NOT NULL AUTO_INCREMENT,
-  `Slug` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci,
-  `ContentBody` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci,
-  `PostLink` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci,
-  `PostUrl` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci,
-  `DemoTitle` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci,
+  `Slug` longtext CHARACTER SET utf8mb4 COLLATE utf8_unicode_ci,
+  `ContentBody` longtext CHARACTER SET utf8mb4 COLLATE utf8_unicode_ci,
+  `PostLink` longtext CHARACTER SET utf8mb4 COLLATE utf8_unicode_ci,
+  `PostUrl` longtext CHARACTER SET utf8mb4 COLLATE utf8_unicode_ci,
+  `DemoTitle` longtext CHARACTER SET utf8mb4 COLLATE utf8_unicode_ci,
   `PostId` int(11) DEFAULT NULL,
   PRIMARY KEY (`DemoId`)
-) ENGINE=InnoDB AUTO_INCREMENT=34 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=34 DEFAULT CHARSET=utf8mb4 COLLATE=utf8_unicode_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -343,29 +343,29 @@ DROP TABLE IF EXISTS `post`;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `post` (
   `Id` int(11) NOT NULL AUTO_INCREMENT,
-  `Title` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL,
-  `Slug` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL,
-  `Content` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL,
-  `FeaturedImg` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci,
-  `Rating` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci,
-  `AuthorId` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci,
+  `Title` longtext CHARACTER SET utf8mb4 COLLATE utf8_unicode_ci NOT NULL,
+  `Slug` longtext CHARACTER SET utf8mb4 COLLATE utf8_unicode_ci NOT NULL,
+  `Content` longtext CHARACTER SET utf8mb4 COLLATE utf8_unicode_ci NOT NULL,
+  `FeaturedImg` longtext CHARACTER SET utf8mb4 COLLATE utf8_unicode_ci,
+  `Rating` longtext CHARACTER SET utf8mb4 COLLATE utf8_unicode_ci,
+  `AuthorId` longtext CHARACTER SET utf8mb4 COLLATE utf8_unicode_ci,
   `PrimaryCategoryId` int(11) NOT NULL,
   `CommentCount` int(11) DEFAULT NULL,
-  `MetaTitle` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci,
-  `MetaKeyword` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci,
-  `MetaDescription` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci,
+  `MetaTitle` longtext CHARACTER SET utf8mb4 COLLATE utf8_unicode_ci,
+  `MetaKeyword` longtext CHARACTER SET utf8mb4 COLLATE utf8_unicode_ci,
+  `MetaDescription` longtext CHARACTER SET utf8mb4 COLLATE utf8_unicode_ci,
   `PublishDate` datetime(6) NOT NULL,
   `CreatedDate` datetime(6) NOT NULL,
   `ModifiedDate` datetime(6) NOT NULL,
-  `Status` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci,
-  `SendMail` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci,
-  `SortName` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci,
-  `IsFeatured` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci,
-  `MultipleCategory` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci,
+  `Status` longtext CHARACTER SET utf8mb4 COLLATE utf8_unicode_ci,
+  `SendMail` longtext CHARACTER SET utf8mb4 COLLATE utf8_unicode_ci,
+  `SortName` longtext CHARACTER SET utf8mb4 COLLATE utf8_unicode_ci,
+  `IsFeatured` longtext CHARACTER SET utf8mb4 COLLATE utf8_unicode_ci,
+  `MultipleCategory` longtext CHARACTER SET utf8mb4 COLLATE utf8_unicode_ci,
   PRIMARY KEY (`Id`),
   KEY `FK_Post002_PrimaryCategoryId` (`PrimaryCategoryId`),
   CONSTRAINT `FK_Post002_PrimaryCategoryId` FOREIGN KEY (`PrimaryCategoryId`) REFERENCES `categories` (`CategoryId`) ON DELETE CASCADE
-) ENGINE=InnoDB AUTO_INCREMENT=9719 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=9719 DEFAULT CHARSET=utf8mb4 COLLATE=utf8_unicode_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -394,7 +394,7 @@ CREATE TABLE `postcategory` (
   KEY `IX_Postcategory_PostId` (`PostId`),
   CONSTRAINT `FK_Postcategory_CategoryId_PostId` FOREIGN KEY (`CategoryId`) REFERENCES `categories` (`CategoryId`) ON DELETE CASCADE,
   CONSTRAINT `FK_Postcategory_Post_PostId` FOREIGN KEY (`PostId`) REFERENCES `post` (`Id`) ON DELETE CASCADE
-) ENGINE=InnoDB AUTO_INCREMENT=1866 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=1866 DEFAULT CHARSET=utf8mb4 COLLATE=utf8_unicode_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -416,12 +416,12 @@ DROP TABLE IF EXISTS `sitemaping`;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `sitemaping` (
   `Id` int(11) NOT NULL AUTO_INCREMENT,
-  `URl` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci,
+  `URl` longtext CHARACTER SET utf8mb4 COLLATE utf8_unicode_ci,
   `ModificationDate` datetime(6) NOT NULL,
-  `Priority` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci,
+  `Priority` longtext CHARACTER SET utf8mb4 COLLATE utf8_unicode_ci,
   `IsActive` int(11) NOT NULL,
   PRIMARY KEY (`Id`)
-) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8mb4 COLLATE=utf8_unicode_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -443,15 +443,15 @@ DROP TABLE IF EXISTS `subscriber`;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `subscriber` (
   `SubscriberId` int(11) NOT NULL AUTO_INCREMENT,
-  `Name` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL,
-  `EmailId` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL,
-  `IpAddress` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci,
-  `OperatingSystemType` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci,
+  `Name` longtext CHARACTER SET utf8mb4 COLLATE utf8_unicode_ci NOT NULL,
+  `EmailId` longtext CHARACTER SET utf8mb4 COLLATE utf8_unicode_ci NOT NULL,
+  `IpAddress` longtext CHARACTER SET utf8mb4 COLLATE utf8_unicode_ci,
+  `OperatingSystemType` longtext CHARACTER SET utf8mb4 COLLATE utf8_unicode_ci,
   `CreatedDate` datetime(6) DEFAULT NULL,
-  `ActionType` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci,
-  `IsVerified` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci,
+  `ActionType` longtext CHARACTER SET utf8mb4 COLLATE utf8_unicode_ci,
+  `IsVerified` longtext CHARACTER SET utf8mb4 COLLATE utf8_unicode_ci,
   PRIMARY KEY (`SubscriberId`)
-) ENGINE=InnoDB AUTO_INCREMENT=12 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=12 DEFAULT CHARSET=utf8mb4 COLLATE=utf8_unicode_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -473,26 +473,26 @@ DROP TABLE IF EXISTS `temp_post`;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `temp_post` (
   `Id` int(11) NOT NULL DEFAULT '0',
-  `Title` varchar(500) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL,
-  `Slug` varchar(500) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL,
-  `Content` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL,
-  `FeaturedImg` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci,
-  `Rating` varchar(100) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci DEFAULT NULL,
-  `AuthorId` varchar(100) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci DEFAULT NULL,
+  `Title` varchar(500) CHARACTER SET utf8mb4 COLLATE utf8_unicode_ci NOT NULL,
+  `Slug` varchar(500) CHARACTER SET utf8mb4 COLLATE utf8_unicode_ci NOT NULL,
+  `Content` longtext CHARACTER SET utf8mb4 COLLATE utf8_unicode_ci NOT NULL,
+  `FeaturedImg` longtext CHARACTER SET utf8mb4 COLLATE utf8_unicode_ci,
+  `Rating` varchar(100) CHARACTER SET utf8mb4 COLLATE utf8_unicode_ci DEFAULT NULL,
+  `AuthorId` varchar(100) CHARACTER SET utf8mb4 COLLATE utf8_unicode_ci DEFAULT NULL,
   `PrimaryCategoryId` int(11) DEFAULT NULL,
   `CommentCount` int(11) DEFAULT NULL,
-  `MetaTitle` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci,
-  `MetaKeyword` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci,
-  `MetaDescription` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci,
+  `MetaTitle` longtext CHARACTER SET utf8mb4 COLLATE utf8_unicode_ci,
+  `MetaKeyword` longtext CHARACTER SET utf8mb4 COLLATE utf8_unicode_ci,
+  `MetaDescription` longtext CHARACTER SET utf8mb4 COLLATE utf8_unicode_ci,
   `PublishDate` datetime(6) DEFAULT NULL,
   `CreatedDate` datetime(6) NOT NULL,
   `ModifiedDate` datetime(6) NOT NULL,
-  `Status` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL,
-  `SendMail` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci,
-  `SortName` varchar(10) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci DEFAULT NULL,
-  `IsFeatured` varchar(10) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL,
-  `MultipleCategory` varchar(100) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+  `Status` longtext CHARACTER SET utf8mb4 COLLATE utf8_unicode_ci NOT NULL,
+  `SendMail` longtext CHARACTER SET utf8mb4 COLLATE utf8_unicode_ci,
+  `SortName` varchar(10) CHARACTER SET utf8mb4 COLLATE utf8_unicode_ci DEFAULT NULL,
+  `IsFeatured` varchar(10) CHARACTER SET utf8mb4 COLLATE utf8_unicode_ci NOT NULL,
+  `MultipleCategory` varchar(100) CHARACTER SET utf8mb4 COLLATE utf8_unicode_ci DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8_unicode_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -518,7 +518,7 @@ UNLOCK TABLES;
 /*!50003 SET @saved_col_connection = @@collation_connection */ ;
 /*!50003 SET character_set_client  = utf8mb4 */ ;
 /*!50003 SET character_set_results = utf8mb4 */ ;
-/*!50003 SET collation_connection  = utf8mb4_0900_ai_ci */ ;
+/*!50003 SET collation_connection  = utf8_unicode_ci */ ;
 /*!50003 SET @saved_sql_mode       = @@sql_mode */ ;
 /*!50003 SET sql_mode              = 'STRICT_TRANS_TABLES,NO_ENGINE_SUBSTITUTION' */ ;
 DELIMITER ;;
@@ -538,7 +538,7 @@ DELIMITER ;
 /*!50003 SET @saved_col_connection = @@collation_connection */ ;
 /*!50003 SET character_set_client  = utf8mb4 */ ;
 /*!50003 SET character_set_results = utf8mb4 */ ;
-/*!50003 SET collation_connection  = utf8mb4_0900_ai_ci */ ;
+/*!50003 SET collation_connection  = utf8_unicode_ci */ ;
 /*!50003 SET @saved_sql_mode       = @@sql_mode */ ;
 /*!50003 SET sql_mode              = 'STRICT_TRANS_TABLES,NO_ENGINE_SUBSTITUTION' */ ;
 DELIMITER ;;
@@ -579,7 +579,7 @@ DELIMITER ;
 /*!50003 SET @saved_col_connection = @@collation_connection */ ;
 /*!50003 SET character_set_client  = utf8mb4 */ ;
 /*!50003 SET character_set_results = utf8mb4 */ ;
-/*!50003 SET collation_connection  = utf8mb4_0900_ai_ci */ ;
+/*!50003 SET collation_connection  = utf8_unicode_ci */ ;
 /*!50003 SET @saved_sql_mode       = @@sql_mode */ ;
 /*!50003 SET sql_mode              = 'STRICT_TRANS_TABLES,NO_ENGINE_SUBSTITUTION' */ ;
 DELIMITER ;;

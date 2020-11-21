@@ -14,7 +14,9 @@ namespace Blogmenia.Data
 
         IEnumerable<Post> GetAllPost();
         IEnumerable<Post> GetLatestPost();
-        
+
+        IEnumerable<Post> GetAllFeaturedPost();
+
         Task<Post> GetPostById_Async(int Id);
         Post GetPostBySlug(string slug);
         Post GetPostById(int Id);
