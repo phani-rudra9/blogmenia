@@ -1,0 +1,17 @@
+C:\Satinder\experiment\Blogmenia\Blogmenia.Core\bin\Debug\netcoreapp3.1\Blogmenia.Core.deps.json
+C:\Satinder\experiment\Blogmenia\Blogmenia.Core\bin\Debug\netcoreapp3.1\Blogmenia.Core.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia.Core\bin\Debug\netcoreapp3.1\Blogmenia.Core.pdb
+C:\Satinder\experiment\Blogmenia\Blogmenia.Core\obj\Debug\netcoreapp3.1\Blogmenia.Core.AssemblyInfoInputs.cache
+C:\Satinder\experiment\Blogmenia\Blogmenia.Core\obj\Debug\netcoreapp3.1\Blogmenia.Core.AssemblyInfo.cs
+C:\Satinder\experiment\Blogmenia\Blogmenia.Core\obj\Debug\netcoreapp3.1\Blogmenia.Core.csproj.CoreCompileInputs.cache
+C:\Satinder\experiment\Blogmenia\Blogmenia.Core\obj\Debug\netcoreapp3.1\Blogmenia.Core.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia.Core\obj\Debug\netcoreapp3.1\Blogmenia.Core.pdb
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia.Core\bin\Debug\netcoreapp3.1\Blogmenia.Core.deps.json
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia.Core\bin\Debug\netcoreapp3.1\Blogmenia.Core.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia.Core\bin\Debug\netcoreapp3.1\Blogmenia.Core.pdb
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia.Core\obj\Debug\netcoreapp3.1\Blogmenia.Core.AssemblyInfoInputs.cache
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia.Core\obj\Debug\netcoreapp3.1\Blogmenia.Core.AssemblyInfo.cs
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia.Core\obj\Debug\netcoreapp3.1\Blogmenia.Core.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia.Core\obj\Debug\netcoreapp3.1\Blogmenia.Core.pdb
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia.Core\obj\Debug\netcoreapp3.1\Blogmenia.Core.csproj.CoreCompileInputs.cache
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia.Core\obj\Debug\netcoreapp3.1\Blogmenia.Core.csprojAssemblyReference.cache
