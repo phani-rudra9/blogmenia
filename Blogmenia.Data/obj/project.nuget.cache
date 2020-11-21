@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kzZ8TgXg8uN/qf0KnXZsECmiyfa70hzcfuHH+FDMItWKQ3TctI4GfTPWGc3B0VHkiL23/PBWgUipEgTS7yL0mA==",
+  "dgSpecHash": "RlONe7dNwo6+tJlc11jHuFv0PtaJsZVPkOfP3PjRAGAgdxapK3hn/N5kvd0RGSdf55pLAAgnaI/Vb9wHYDm+cQ==",
   "success": true,
-  "projectFilePath": "E:\\Satinder singh\\cloud-data\\Blogmenia (2)\\Blogmenia\\Blogmenia.Data\\Blogmenia.Data.csproj",
+  "projectFilePath": "E:\\Satinder singh\\GIT\\blogmenia\\Blogmenia.Data\\Blogmenia.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\SATINDER\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\SATINDER\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",

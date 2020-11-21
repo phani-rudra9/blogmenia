@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cOcdO7L+7SD03apjvGIf4WEcVQJ36H1m+ifgThkvzxtQXY+YzNCq8v9zkfS8LDcVSOHU3nptz4+V5D1DUzyQpw==",
+  "dgSpecHash": "fzznCNRe7gCVD9jAACo57PbQQiT5IlLOGCpOnPU4jmihLTzG0ASbhhElv3HOZJumJj0uJnT8S6gkfBnXvyFhqA==",
   "success": true,
-  "projectFilePath": "E:\\Satinder singh\\cloud-data\\Blogmenia (2)\\Blogmenia\\Blogmenia\\Blogmenia.csproj",
+  "projectFilePath": "E:\\Satinder singh\\GIT\\blogmenia\\Blogmenia\\Blogmenia.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\SATINDER\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\3.1.8\\microsoft.aspnetcore.cryptography.internal.3.1.8.nupkg.sha512",
     "C:\\Users\\SATINDER\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\3.1.8\\microsoft.aspnetcore.cryptography.keyderivation.3.1.8.nupkg.sha512",
@@ -57,7 +57,6 @@
     "C:\\Users\\SATINDER\\.nuget\\packages\\microsoft.identitymodel.tokens\\5.5.0\\microsoft.identitymodel.tokens.5.5.0.nupkg.sha512",
     "C:\\Users\\SATINDER\\.nuget\\packages\\microsoft.netcore.platforms\\2.1.2\\microsoft.netcore.platforms.2.1.2.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
-    "C:\\Users\\SATINDER\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.9\\microsoft.visualstudio.azure.containers.tools.targets.1.10.9.nupkg.sha512",
     "C:\\Users\\SATINDER\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration\\3.1.4\\microsoft.visualstudio.web.codegeneration.3.1.4.nupkg.sha512",
     "C:\\Users\\SATINDER\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration.contracts\\3.1.4\\microsoft.visualstudio.web.codegeneration.contracts.3.1.4.nupkg.sha512",
     "C:\\Users\\SATINDER\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration.core\\3.1.4\\microsoft.visualstudio.web.codegeneration.core.3.1.4.nupkg.sha512",

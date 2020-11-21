@@ -28,3 +28,18 @@ E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia.Data\obj\Debug\ne
 E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia.Data\obj\Debug\netcoreapp3.1\Blogmenia.Data.dll
 E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia.Data\obj\Debug\netcoreapp3.1\Blogmenia.Data.pdb
 E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia.Data\obj\Debug\netcoreapp3.1\Blogmenia.Data.genruntimeconfig.cache
+E:\Satinder singh\GIT\blogmenia\Blogmenia.Data\bin\Debug\netcoreapp3.1\Blogmenia.Data.deps.json
+E:\Satinder singh\GIT\blogmenia\Blogmenia.Data\bin\Debug\netcoreapp3.1\Blogmenia.Data.runtimeconfig.json
+E:\Satinder singh\GIT\blogmenia\Blogmenia.Data\bin\Debug\netcoreapp3.1\Blogmenia.Data.runtimeconfig.dev.json
+E:\Satinder singh\GIT\blogmenia\Blogmenia.Data\bin\Debug\netcoreapp3.1\Blogmenia.Data.dll
+E:\Satinder singh\GIT\blogmenia\Blogmenia.Data\bin\Debug\netcoreapp3.1\Blogmenia.Data.pdb
+E:\Satinder singh\GIT\blogmenia\Blogmenia.Data\bin\Debug\netcoreapp3.1\Blogmenia.Core.dll
+E:\Satinder singh\GIT\blogmenia\Blogmenia.Data\bin\Debug\netcoreapp3.1\Blogmenia.Core.pdb
+E:\Satinder singh\GIT\blogmenia\Blogmenia.Data\obj\Debug\netcoreapp3.1\Blogmenia.Data.csprojAssemblyReference.cache
+E:\Satinder singh\GIT\blogmenia\Blogmenia.Data\obj\Debug\netcoreapp3.1\Blogmenia.Data.AssemblyInfoInputs.cache
+E:\Satinder singh\GIT\blogmenia\Blogmenia.Data\obj\Debug\netcoreapp3.1\Blogmenia.Data.AssemblyInfo.cs
+E:\Satinder singh\GIT\blogmenia\Blogmenia.Data\obj\Debug\netcoreapp3.1\Blogmenia.Data.csproj.CoreCompileInputs.cache
+E:\Satinder singh\GIT\blogmenia\Blogmenia.Data\obj\Debug\netcoreapp3.1\Blogmenia.Data.csproj.CopyComplete
+E:\Satinder singh\GIT\blogmenia\Blogmenia.Data\obj\Debug\netcoreapp3.1\Blogmenia.Data.dll
+E:\Satinder singh\GIT\blogmenia\Blogmenia.Data\obj\Debug\netcoreapp3.1\Blogmenia.Data.pdb
+E:\Satinder singh\GIT\blogmenia\Blogmenia.Data\obj\Debug\netcoreapp3.1\Blogmenia.Data.genruntimeconfig.cache

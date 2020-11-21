@@ -95,11 +95,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Satinder singh\\cloud-data\\Blogmenia (2)\\Blogmenia\\Blogmenia.Core\\Blogmenia.Core.csproj",
+      "projectUniqueName": "E:\\Satinder singh\\GIT\\blogmenia\\Blogmenia.Core\\Blogmenia.Core.csproj",
       "projectName": "Blogmenia.Core",
-      "projectPath": "E:\\Satinder singh\\cloud-data\\Blogmenia (2)\\Blogmenia\\Blogmenia.Core\\Blogmenia.Core.csproj",
+      "projectPath": "E:\\Satinder singh\\GIT\\blogmenia\\Blogmenia.Core\\Blogmenia.Core.csproj",
       "packagesPath": "C:\\Users\\SATINDER\\.nuget\\packages\\",
-      "outputPath": "E:\\Satinder singh\\cloud-data\\Blogmenia (2)\\Blogmenia\\Blogmenia.Core\\obj\\",
+      "outputPath": "E:\\Satinder singh\\GIT\\blogmenia\\Blogmenia.Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

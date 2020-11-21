@@ -15,3 +15,11 @@ E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia.Core\obj\Debug\ne
 E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia.Core\obj\Debug\netcoreapp3.1\Blogmenia.Core.pdb
 E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia.Core\obj\Debug\netcoreapp3.1\Blogmenia.Core.csproj.CoreCompileInputs.cache
 E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia.Core\obj\Debug\netcoreapp3.1\Blogmenia.Core.csprojAssemblyReference.cache
+E:\Satinder singh\GIT\blogmenia\Blogmenia.Core\bin\Debug\netcoreapp3.1\Blogmenia.Core.deps.json
+E:\Satinder singh\GIT\blogmenia\Blogmenia.Core\bin\Debug\netcoreapp3.1\Blogmenia.Core.dll
+E:\Satinder singh\GIT\blogmenia\Blogmenia.Core\bin\Debug\netcoreapp3.1\Blogmenia.Core.pdb
+E:\Satinder singh\GIT\blogmenia\Blogmenia.Core\obj\Debug\netcoreapp3.1\Blogmenia.Core.AssemblyInfoInputs.cache
+E:\Satinder singh\GIT\blogmenia\Blogmenia.Core\obj\Debug\netcoreapp3.1\Blogmenia.Core.AssemblyInfo.cs
+E:\Satinder singh\GIT\blogmenia\Blogmenia.Core\obj\Debug\netcoreapp3.1\Blogmenia.Core.csproj.CoreCompileInputs.cache
+E:\Satinder singh\GIT\blogmenia\Blogmenia.Core\obj\Debug\netcoreapp3.1\Blogmenia.Core.dll
+E:\Satinder singh\GIT\blogmenia\Blogmenia.Core\obj\Debug\netcoreapp3.1\Blogmenia.Core.pdb

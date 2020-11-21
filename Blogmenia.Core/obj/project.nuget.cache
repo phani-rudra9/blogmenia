@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0cM45E2aItQrnJEMu331/YQGEdQiIaxzh0XPNXEvDbl8NCsOOArxx5ITsj9eWbtw1R5T/GmdJkMH78M/cjStPw==",
+  "dgSpecHash": "oeq3uJJ7MWSZ7HI7i3Tgq2ljv02TLhB/vCzGevL+BOwoGtqfU/U4jT3f1S3X9CLOabIxi4GU7/wcp5Oh2mlKwg==",
   "success": true,
-  "projectFilePath": "E:\\Satinder singh\\cloud-data\\Blogmenia (2)\\Blogmenia\\Blogmenia.Core\\Blogmenia.Core.csproj",
+  "projectFilePath": "E:\\Satinder singh\\GIT\\blogmenia\\Blogmenia.Core\\Blogmenia.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\SATINDER\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.8\\microsoft.extensions.dependencyinjection.abstractions.3.1.8.nupkg.sha512",
     "C:\\Users\\SATINDER\\.nuget\\packages\\microsoft.extensions.options\\3.1.8\\microsoft.extensions.options.3.1.8.nupkg.sha512",

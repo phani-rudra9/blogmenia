@@ -1,8 +1,0 @@
-version: '3.4'
-
-services:
-  blogmenia:
-    image: ${DOCKER_REGISTRY-}blogmenia
-    build:
-      context: .
-      dockerfile: Dockerfile

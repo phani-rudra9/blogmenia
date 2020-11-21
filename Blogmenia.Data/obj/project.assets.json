@@ -966,11 +966,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Satinder singh\\cloud-data\\Blogmenia (2)\\Blogmenia\\Blogmenia.Data\\Blogmenia.Data.csproj",
+      "projectUniqueName": "E:\\Satinder singh\\GIT\\blogmenia\\Blogmenia.Data\\Blogmenia.Data.csproj",
       "projectName": "Blogmenia.Data",
-      "projectPath": "E:\\Satinder singh\\cloud-data\\Blogmenia (2)\\Blogmenia\\Blogmenia.Data\\Blogmenia.Data.csproj",
+      "projectPath": "E:\\Satinder singh\\GIT\\blogmenia\\Blogmenia.Data\\Blogmenia.Data.csproj",
       "packagesPath": "C:\\Users\\SATINDER\\.nuget\\packages\\",
-      "outputPath": "E:\\Satinder singh\\cloud-data\\Blogmenia (2)\\Blogmenia\\Blogmenia.Data\\obj\\",
+      "outputPath": "E:\\Satinder singh\\GIT\\blogmenia\\Blogmenia.Data\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -989,8 +989,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "E:\\Satinder singh\\cloud-data\\Blogmenia (2)\\Blogmenia\\Blogmenia.Core\\Blogmenia.Core.csproj": {
-              "projectPath": "E:\\Satinder singh\\cloud-data\\Blogmenia (2)\\Blogmenia\\Blogmenia.Core\\Blogmenia.Core.csproj"
+            "E:\\Satinder singh\\GIT\\blogmenia\\Blogmenia.Core\\Blogmenia.Core.csproj": {
+              "projectPath": "E:\\Satinder singh\\GIT\\blogmenia\\Blogmenia.Core\\Blogmenia.Core.csproj"
             }
           }
         }
