@@ -1,0 +1,84 @@
+﻿@page
+@model Blogmenia.Areas.Admin.Pages.Editor.UpsertModel
+
+@Html.AntiForgeryToken()
+
+<div id="dvHolder" class="container-fluid p-0" style="display: none;">
+
+    <div class="row mb-2">
+        <div class="col-md-8">
+            <h3 class="h3 mb-3">Demo Add / Update </h3>
+            @if (Model.Message != null)
+            {
+                <div class="alert alert-success alert-dismissible" role="alert">
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    @Model.Message
+                </div>
+            }
+        </div>
+        <div class="col-md-4">
+            <a asp-page="./Upsert" class="btn btn-dark mb-2 text-white">Add New Demo</a>
+            <a asp-page="./Index" class="btn btn-dark mb-2">View List</a>
+        </div>
+
+    </div>
+
+    <div class="row ibg_white">
+        <div class="col-md-8">
+            <form method="post">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                
+                <input id="hdDemoId" type="hidden" asp-for="@Model.demos.DemoId" value="0" />
+                <div class="form-group">
+                    <label asp-for="@Model.demos.DemoTitle" class="control-label"></label>
+                    <input asp-for="@Model.demos.DemoTitle" class="form-control" />
+                    <span asp-validation-for="@Model.demos.DemoTitle" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="@Model.demos.Slug" class="control-label"></label>
+                    <input asp-for="@Model.demos.Slug" class="form-control" />
+                    <span asp-validation-for="@Model.demos.Slug" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="@Model.demos.ContentBody" class="control-label"></label>
+                    <textarea asp-for="@Model.demos.ContentBody" class="form-control" rows="7"></textarea>
+                    <span asp-validation-for="@Model.demos.ContentBody" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="@Model.demos.PostId" class="control-label"></label>
+                    <input asp-for="@Model.demos.PostId" class="form-control" />
+                    <span asp-validation-for="@Model.demos.PostId" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="@Model.demos.PostLink" class="control-label"></label>
+                    <input asp-for="@Model.demos.PostLink" class="form-control" />
+                    <span asp-validation-for="@Model.demos.PostLink" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="@Model.demos.PostUrl" class="control-label"></label>
+                    <input asp-for="@Model.demos.PostUrl" class="form-control" />
+                    <span asp-validation-for="@Model.demos.PostUrl" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Save" class="btn btn-primary" />
+                    <a asp-page="./Index" class="btn btn-primary">Back to List</a>
+                </div>
+            </form>
+        </div>
+    </div>
+
+</div>
+
+@section Scripts {
+
+    <script type="text/javascript">
+                $(document).ready(function () {
+                    $("#dvHolder").fadeIn(600);
+                });
+
+    </script>
+
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

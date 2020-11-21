@@ -1,0 +1,30 @@
+C:\Satinder\experiment\Blogmenia\Blogmenia.Data\bin\Debug\netcoreapp3.1\Blogmenia.Data.deps.json
+C:\Satinder\experiment\Blogmenia\Blogmenia.Data\bin\Debug\netcoreapp3.1\Blogmenia.Data.runtimeconfig.json
+C:\Satinder\experiment\Blogmenia\Blogmenia.Data\bin\Debug\netcoreapp3.1\Blogmenia.Data.runtimeconfig.dev.json
+C:\Satinder\experiment\Blogmenia\Blogmenia.Data\bin\Debug\netcoreapp3.1\Blogmenia.Data.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia.Data\bin\Debug\netcoreapp3.1\Blogmenia.Data.pdb
+C:\Satinder\experiment\Blogmenia\Blogmenia.Data\bin\Debug\netcoreapp3.1\Blogmenia.Core.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia.Data\bin\Debug\netcoreapp3.1\Blogmenia.Core.pdb
+C:\Satinder\experiment\Blogmenia\Blogmenia.Data\obj\Debug\netcoreapp3.1\Blogmenia.Data.csprojAssemblyReference.cache
+C:\Satinder\experiment\Blogmenia\Blogmenia.Data\obj\Debug\netcoreapp3.1\Blogmenia.Data.AssemblyInfoInputs.cache
+C:\Satinder\experiment\Blogmenia\Blogmenia.Data\obj\Debug\netcoreapp3.1\Blogmenia.Data.AssemblyInfo.cs
+C:\Satinder\experiment\Blogmenia\Blogmenia.Data\obj\Debug\netcoreapp3.1\Blogmenia.Data.csproj.CoreCompileInputs.cache
+C:\Satinder\experiment\Blogmenia\Blogmenia.Data\obj\Debug\netcoreapp3.1\Blogmenia.Data.csproj.CopyComplete
+C:\Satinder\experiment\Blogmenia\Blogmenia.Data\obj\Debug\netcoreapp3.1\Blogmenia.Data.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia.Data\obj\Debug\netcoreapp3.1\Blogmenia.Data.pdb
+C:\Satinder\experiment\Blogmenia\Blogmenia.Data\obj\Debug\netcoreapp3.1\Blogmenia.Data.genruntimeconfig.cache
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia.Data\bin\Debug\netcoreapp3.1\Blogmenia.Data.deps.json
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia.Data\bin\Debug\netcoreapp3.1\Blogmenia.Data.runtimeconfig.json
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia.Data\bin\Debug\netcoreapp3.1\Blogmenia.Data.runtimeconfig.dev.json
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia.Data\bin\Debug\netcoreapp3.1\Blogmenia.Data.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia.Data\bin\Debug\netcoreapp3.1\Blogmenia.Data.pdb
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia.Data\bin\Debug\netcoreapp3.1\Blogmenia.Core.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia.Data\bin\Debug\netcoreapp3.1\Blogmenia.Core.pdb
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia.Data\obj\Debug\netcoreapp3.1\Blogmenia.Data.csprojAssemblyReference.cache
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia.Data\obj\Debug\netcoreapp3.1\Blogmenia.Data.AssemblyInfoInputs.cache
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia.Data\obj\Debug\netcoreapp3.1\Blogmenia.Data.AssemblyInfo.cs
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia.Data\obj\Debug\netcoreapp3.1\Blogmenia.Data.csproj.CoreCompileInputs.cache
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia.Data\obj\Debug\netcoreapp3.1\Blogmenia.Data.csproj.CopyComplete
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia.Data\obj\Debug\netcoreapp3.1\Blogmenia.Data.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia.Data\obj\Debug\netcoreapp3.1\Blogmenia.Data.pdb
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia.Data\obj\Debug\netcoreapp3.1\Blogmenia.Data.genruntimeconfig.cache

@@ -1,0 +1,427 @@
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\Properties\serviceDependencies.json
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\Properties\serviceDependencies.local.json
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\Blogmenia.StaticWebAssets.xml
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\Blogmenia.exe
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\Blogmenia.deps.json
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\Blogmenia.runtimeconfig.json
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\Blogmenia.runtimeconfig.dev.json
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\Blogmenia.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\Blogmenia.pdb
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\Blogmenia.Views.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\Blogmenia.Views.pdb
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.Views.V3.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.Views.V4.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\Microsoft.Data.Sqlite.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Sqlite.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\MySqlConnector.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\Pomelo.JsonObject.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\SQLitePCLRaw.batteries_v2.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\SQLitePCLRaw.nativelibrary.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\SQLitePCLRaw.core.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\SQLitePCLRaw.provider.dynamic_cdecl.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\System.Text.Json.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libe_sqlite3.so
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\runtimes\linux-arm\native\libe_sqlite3.so
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\runtimes\linux-arm64\native\libe_sqlite3.so
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\runtimes\linux-armel\native\libe_sqlite3.so
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\runtimes\linux-musl-x64\native\libe_sqlite3.so
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\libe_sqlite3.so
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\runtimes\linux-x86\native\libe_sqlite3.so
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\runtimes\osx-x64\native\libe_sqlite3.dylib
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\e_sqlite3.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\e_sqlite3.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\e_sqlite3.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\e_sqlite3.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\Blogmenia.Core.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\Blogmenia.Data.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\Blogmenia.Core.pdb
+C:\Satinder\experiment\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\Blogmenia.Data.pdb
+C:\Satinder\experiment\Blogmenia\Blogmenia\obj\Debug\netcoreapp3.1\Blogmenia.csprojAssemblyReference.cache
+C:\Satinder\experiment\Blogmenia\Blogmenia\obj\Debug\netcoreapp3.1\Blogmenia.AssemblyInfoInputs.cache
+C:\Satinder\experiment\Blogmenia\Blogmenia\obj\Debug\netcoreapp3.1\Blogmenia.AssemblyInfo.cs
+C:\Satinder\experiment\Blogmenia\Blogmenia\obj\Debug\netcoreapp3.1\Blogmenia.RazorAssemblyInfo.cache
+C:\Satinder\experiment\Blogmenia\Blogmenia\obj\Debug\netcoreapp3.1\Blogmenia.RazorAssemblyInfo.cs
+C:\Satinder\experiment\Blogmenia\Blogmenia\obj\Debug\netcoreapp3.1\Blogmenia.TagHelpers.input.cache
+C:\Satinder\experiment\Blogmenia\Blogmenia\obj\Debug\netcoreapp3.1\Blogmenia.TagHelpers.output.cache
+C:\Satinder\experiment\Blogmenia\Blogmenia\obj\Debug\netcoreapp3.1\Blogmenia.RazorCoreGenerate.cache
+C:\Satinder\experiment\Blogmenia\Blogmenia\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Pages\BlogPost\Index.cshtml.g.cs
+C:\Satinder\experiment\Blogmenia\Blogmenia\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Pages\BlogPost\Upsert.cshtml.g.cs
+C:\Satinder\experiment\Blogmenia\Blogmenia\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Pages\Comment\Index.cshtml.g.cs
+C:\Satinder\experiment\Blogmenia\Blogmenia\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Pages\CustomCategory\Index.cshtml.g.cs
+C:\Satinder\experiment\Blogmenia\Blogmenia\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Pages\CustomCategory\Upsert.cshtml.g.cs
+C:\Satinder\experiment\Blogmenia\Blogmenia\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Pages\Editor\Index.cshtml.g.cs
+C:\Satinder\experiment\Blogmenia\Blogmenia\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Pages\Editor\Upsert.cshtml.g.cs
+C:\Satinder\experiment\Blogmenia\Blogmenia\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Pages\_ViewImports.cshtml.g.cs
+C:\Satinder\experiment\Blogmenia\Blogmenia\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Pages\_ViewStart.cshtml.g.cs
+C:\Satinder\experiment\Blogmenia\Blogmenia\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Login.cshtml.g.cs
+C:\Satinder\experiment\Blogmenia\Blogmenia\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Register.cshtml.g.cs
+C:\Satinder\experiment\Blogmenia\Blogmenia\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\_ViewImports.cshtml.g.cs
+C:\Satinder\experiment\Blogmenia\Blogmenia\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.cshtml.g.cs
+C:\Satinder\experiment\Blogmenia\Blogmenia\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
+C:\Satinder\experiment\Blogmenia\Blogmenia\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
+C:\Satinder\experiment\Blogmenia\Blogmenia\obj\Debug\netcoreapp3.1\Razor\Pages\About.cshtml.g.cs
+C:\Satinder\experiment\Blogmenia\Blogmenia\obj\Debug\netcoreapp3.1\Razor\Pages\Advertise.cshtml.g.cs
+C:\Satinder\experiment\Blogmenia\Blogmenia\obj\Debug\netcoreapp3.1\Razor\Pages\Category\Index.cshtml.g.cs
+C:\Satinder\experiment\Blogmenia\Blogmenia\obj\Debug\netcoreapp3.1\Razor\Pages\editor-example\Index.cshtml.g.cs
+C:\Satinder\experiment\Blogmenia\Blogmenia\obj\Debug\netcoreapp3.1\Razor\Pages\Error.cshtml.g.cs
+C:\Satinder\experiment\Blogmenia\Blogmenia\obj\Debug\netcoreapp3.1\Razor\Pages\Index.cshtml.g.cs
+C:\Satinder\experiment\Blogmenia\Blogmenia\obj\Debug\netcoreapp3.1\Razor\Pages\NikiMap.cshtml.g.cs
+C:\Satinder\experiment\Blogmenia\Blogmenia\obj\Debug\netcoreapp3.1\Razor\Pages\NotFound.cshtml.g.cs
+C:\Satinder\experiment\Blogmenia\Blogmenia\obj\Debug\netcoreapp3.1\Razor\Pages\Privacy.cshtml.g.cs
+C:\Satinder\experiment\Blogmenia\Blogmenia\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_Layout.cshtml.g.cs
+C:\Satinder\experiment\Blogmenia\Blogmenia\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_LayoutAdmin.cshtml.g.cs
+C:\Satinder\experiment\Blogmenia\Blogmenia\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_LayoutHarman.cshtml.g.cs
+C:\Satinder\experiment\Blogmenia\Blogmenia\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_LoginPartial.cshtml.g.cs
+C:\Satinder\experiment\Blogmenia\Blogmenia\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Satinder\experiment\Blogmenia\Blogmenia\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewImports.cshtml.g.cs
+C:\Satinder\experiment\Blogmenia\Blogmenia\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewStart.cshtml.g.cs
+C:\Satinder\experiment\Blogmenia\Blogmenia\obj\Debug\netcoreapp3.1\Blogmenia.RazorTargetAssemblyInfo.cache
+C:\Satinder\experiment\Blogmenia\Blogmenia\obj\Debug\netcoreapp3.1\Blogmenia.RazorTargetAssemblyInfo.cs
+C:\Satinder\experiment\Blogmenia\Blogmenia\obj\Debug\netcoreapp3.1\Blogmenia.Views.pdb
+C:\Satinder\experiment\Blogmenia\Blogmenia\obj\Debug\netcoreapp3.1\Blogmenia.csproj.CopyComplete
+C:\Satinder\experiment\Blogmenia\Blogmenia\obj\Debug\netcoreapp3.1\staticwebassets\Blogmenia.StaticWebAssets.Manifest.cache
+C:\Satinder\experiment\Blogmenia\Blogmenia\obj\Debug\netcoreapp3.1\staticwebassets\Blogmenia.StaticWebAssets.xml
+C:\Satinder\experiment\Blogmenia\Blogmenia\obj\Debug\netcoreapp3.1\Blogmenia.dll
+C:\Satinder\experiment\Blogmenia\Blogmenia\obj\Debug\netcoreapp3.1\Blogmenia.pdb
+C:\Satinder\experiment\Blogmenia\Blogmenia\obj\Debug\netcoreapp3.1\Blogmenia.genruntimeconfig.cache
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\appsettings.Development.json
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\Properties\serviceDependencies.json
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\Properties\serviceDependencies.local.json
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\appsettings.json
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\Blogmenia.StaticWebAssets.xml
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\Blogmenia.exe
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\Blogmenia.deps.json
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\Blogmenia.runtimeconfig.json
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\Blogmenia.runtimeconfig.dev.json
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\Blogmenia.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\Blogmenia.pdb
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\Blogmenia.Views.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\Blogmenia.Views.pdb
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.Views.V3.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.Views.V4.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\Microsoft.Data.Sqlite.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Sqlite.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Embedded.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\MySqlConnector.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\Pomelo.EntityFrameworkCore.MySql.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\Pomelo.JsonObject.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\SQLitePCLRaw.batteries_v2.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\SQLitePCLRaw.nativelibrary.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\SQLitePCLRaw.core.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\SQLitePCLRaw.provider.dynamic_cdecl.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\System.Text.Json.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libe_sqlite3.so
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\runtimes\linux-arm\native\libe_sqlite3.so
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\runtimes\linux-arm64\native\libe_sqlite3.so
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\runtimes\linux-armel\native\libe_sqlite3.so
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\runtimes\linux-musl-x64\native\libe_sqlite3.so
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\libe_sqlite3.so
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\runtimes\linux-x86\native\libe_sqlite3.so
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\runtimes\osx-x64\native\libe_sqlite3.dylib
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\e_sqlite3.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\e_sqlite3.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\e_sqlite3.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\e_sqlite3.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\Blogmenia.Core.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\Blogmenia.Data.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\Blogmenia.Core.pdb
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\bin\Debug\netcoreapp3.1\Blogmenia.Data.pdb
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\obj\Debug\netcoreapp3.1\Blogmenia.csprojAssemblyReference.cache
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\obj\Debug\netcoreapp3.1\Blogmenia.AssemblyInfoInputs.cache
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\obj\Debug\netcoreapp3.1\Blogmenia.AssemblyInfo.cs
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\obj\Debug\netcoreapp3.1\Blogmenia.RazorAssemblyInfo.cache
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\obj\Debug\netcoreapp3.1\Blogmenia.RazorAssemblyInfo.cs
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\obj\Debug\netcoreapp3.1\Blogmenia.TagHelpers.input.cache
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\obj\Debug\netcoreapp3.1\Blogmenia.TagHelpers.output.cache
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\obj\Debug\netcoreapp3.1\Blogmenia.RazorCoreGenerate.cache
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Pages\BlogPost\Index.cshtml.g.cs
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Pages\BlogPost\Upsert.cshtml.g.cs
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Pages\Comment\Index.cshtml.g.cs
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Pages\CustomCategory\Index.cshtml.g.cs
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Pages\CustomCategory\Upsert.cshtml.g.cs
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Pages\Editor\Index.cshtml.g.cs
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Pages\Editor\Upsert.cshtml.g.cs
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Pages\_ViewImports.cshtml.g.cs
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Pages\_ViewStart.cshtml.g.cs
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Login.cshtml.g.cs
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Register.cshtml.g.cs
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\_ViewImports.cshtml.g.cs
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.cshtml.g.cs
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\obj\Debug\netcoreapp3.1\Razor\Pages\About.cshtml.g.cs
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\obj\Debug\netcoreapp3.1\Razor\Pages\Advertise.cshtml.g.cs
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\obj\Debug\netcoreapp3.1\Razor\Pages\Category\Index.cshtml.g.cs
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\obj\Debug\netcoreapp3.1\Razor\Pages\editor-example\Index.cshtml.g.cs
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\obj\Debug\netcoreapp3.1\Razor\Pages\Error.cshtml.g.cs
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\obj\Debug\netcoreapp3.1\Razor\Pages\Index.cshtml.g.cs
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\obj\Debug\netcoreapp3.1\Razor\Pages\NikiMap.cshtml.g.cs
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\obj\Debug\netcoreapp3.1\Razor\Pages\NotFound.cshtml.g.cs
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\obj\Debug\netcoreapp3.1\Razor\Pages\Privacy.cshtml.g.cs
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_Layout.cshtml.g.cs
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_LayoutAdmin.cshtml.g.cs
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_LayoutHarman.cshtml.g.cs
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_LoginPartial.cshtml.g.cs
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewImports.cshtml.g.cs
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewStart.cshtml.g.cs
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\obj\Debug\netcoreapp3.1\Blogmenia.RazorTargetAssemblyInfo.cache
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\obj\Debug\netcoreapp3.1\Blogmenia.RazorTargetAssemblyInfo.cs
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\obj\Debug\netcoreapp3.1\Blogmenia.Views.pdb
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\obj\Debug\netcoreapp3.1\Blogmenia.csproj.CopyComplete
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\obj\Debug\netcoreapp3.1\staticwebassets\Blogmenia.StaticWebAssets.Manifest.cache
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\obj\Debug\netcoreapp3.1\staticwebassets\Blogmenia.StaticWebAssets.xml
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\obj\Debug\netcoreapp3.1\Blogmenia.dll
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\obj\Debug\netcoreapp3.1\Blogmenia.pdb
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\obj\Debug\netcoreapp3.1\Blogmenia.genruntimeconfig.cache
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\obj\Debug\netcoreapp3.1\Blogmenia.csproj.CoreCompileInputs.cache
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\obj\Debug\netcoreapp3.1\Blogmenia.MvcApplicationPartsAssemblyInfo.cs
+E:\Satinder singh\cloud-data\Blogmenia (2)\Blogmenia\Blogmenia\obj\Debug\netcoreapp3.1\Blogmenia.MvcApplicationPartsAssemblyInfo.cache

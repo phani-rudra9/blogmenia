@@ -1,0 +1,80 @@
+﻿@page
+@model Blogmenia.Areas.Admin.Pages.CustomCategory.UpsertModel
+
+@Html.AntiForgeryToken()
+
+    <div id="dvHolder" class="container-fluid p-0" style="display: none;">
+
+        <div class="row mb-2">
+            <div class="col-md-8">
+                <h3 class="h3 mb-3">Category Add / Update </h3>
+                @if (Model.Message != null)
+                {
+
+
+                    <div class="alert alert-success alert-dismissible" role="alert">
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        @Model.Message
+                    </div>
+                }
+            </div>
+            <div class="col-md-4">           
+                <a asp-page="./Upsert" class="btn btn-dark mb-2 text-white">Add New Category</a>
+                <a asp-page="./Index" class="btn btn-dark mb-2" >View List</a>
+            </div>
+
+        </div>
+
+        <div class="row ibg_white">
+            <div class="col-md-8">
+                <form method="post">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <input type="hidden" asp-for="Categories.CategoryId"  value="0" />
+                    <div class="form-group">
+                        <label asp-for="Categories.Name" class="control-label"></label>
+                        <input asp-for="Categories.Name" class="form-control" />
+                        <span asp-validation-for="Categories.Name" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Categories.Slug" class="control-label"></label>
+                        <input asp-for="Categories.Slug" class="form-control" />
+                        <span asp-validation-for="Categories.Slug" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Categories.Description" class="control-label"></label>
+                        <textarea asp-for="Categories.Description" t class="form-control" rows="5" ></textarea>
+                        <span asp-validation-for="Categories.Description" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+
+
+                        <label asp-for="Categories.IsActive" class="control-label"></label>
+                        
+                        <select asp-for="Categories.IsActive" class="form-control">
+                            <option value="Y">Yes</option>
+                            <option value="N">No</option>
+                        </select>
+                         
+                        <span asp-validation-for="Categories.IsActive" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <input type="submit" value="Save" class="btn btn-primary" />
+                        <a asp-page="./Index"  class="btn btn-primary"  >Back to List</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+       </div>
+
+        @section Scripts {
+
+            <script type="text/javascript">
+                $(document).ready(function () {
+                    $("#dvHolder").fadeIn(600);
+                });
+
+            </script>
+
+            @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+        }

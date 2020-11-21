@@ -1,0 +1,132 @@
+﻿@page "{Slug?}/{pageIndex:int?}"
+@model Blogmenia.Pages.Category.IndexModel
+
+
+<style>
+    .card-img-top {
+        height: 195px !important;
+    }
+</style>
+<div class="container pt-2 pb-5" style="min-height:550px;">
+    <div class="row justify-content-center">
+        <section class="pb-5 col pb-5 mb-5">
+            @if (RouteData.Values["Slug"] != null)
+            {
+                if (Model.PostList != null)
+                {
+                    <div class="container">
+                        <h2 class="section_title text-dark"> @Model.categories.Slug.ToUpper()</h2>
+                        <div class="row gap-y">
+                            @if (Model.PostList.Any())
+                            {
+                                @foreach (var item in Model.PostList)
+                                {
+                                    var iPhotoUrl = "/mediaUpload/" + (item.FeaturedImg ?? "noimage.png");
+
+                                    <div class="col-md-6 col-lg-4 ftr">
+                                        <div class="card">
+                                            <img class="card-img-top" src="@iPhotoUrl" alt="@item.Title" />
+                                            <div class="card-body">
+                                                <a asp-area="" asp-page="/Index" asp-route-slug="@item.Slug">
+                                                    <h3 class="card-title text-dark ftr_link"> @item.Title</h3>
+                                                    <span class="card-text text-muted">
+                                                        Updated on @item.ModifiedDate.ToShortDateString() by Satinder Singh
+                                                    </span>
+                                                </a>
+                                                <br />
+                                                @if (User.Identity.IsAuthenticated)
+                                                {
+                                                     <a style="width:100%; text-decoration :underline; " target="_blank" class="text-center text-danger float-left"   asp-page="/BlogPost/Upsert" 
+                                                        asp-area="Admin" 
+                                                        asp-route-Id="@item.Id"> Edit </a>
+                                                             
+                                                }
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                }
+                            }
+                            else
+                            {
+                                <p class="h4 pt-5">No more article available..</p>
+                            }
+                        </div>
+                        <div class="row">
+                            <div class="col" style="text-align:center;">
+                                <div class="btn-group pt-5" role="group" aria-label="Basic example">
+                                    @if (Model.no_more_record != "YES")
+                                    {
+                                        @if (Model.prev_no != 0)
+                                        {<a class="btn btn-outline-danger"
+                                            asp-area=""
+                                            asp-page="/category/Index"
+                                            asp-route-slug="@Model.categories.Slug"
+                                            asp-route-pageIndex="@Model.prev_no">&#8612; Previous</a>
+                                        }
+                                        <a class="btn btn-outline-danger"
+                                           asp-area=""
+                                           asp-page="/category/Index"
+                                           asp-route-slug="@Model.categories.Slug"
+                                           asp-route-pageIndex="@Model.next_no">Next &#8614;</a>
+                                    }
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                }
+            }
+            else
+            { <div class="container">
+                  <h4 class="section_title text-dark">List of Category</h4>
+                    <div class="row gap-y">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th scope="col">#</th>
+                                    <th scope="col"> Category Name </th>
+                                    <th scope="col"> Description</th>
+                                    <th>Action</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+
+                                @if (Model.categories_List.Any())
+                                {
+                                    var i = 1;
+
+                                    foreach (var item in Model.categories_List)
+                                    {
+                                        <tr>
+                                            <td scope="row"> @i	</td>
+                                            <td> <a asp-area="" asp-page="/Category/Index" asp-route-slug="@item.Slug" asp-route-pageIndex="1" target="_blank" class="text-danger">@item.Name</a>  </td>
+                                            <td> @item.Description </td>
+                                            <td> <a asp-area="" asp-page="/Category/Index" asp-route-slug="@item.Slug" asp-route-pageIndex="1" target="_blank" class="btn btn-sm btn-outline-danger">View</a> </td>
+                                            @{i++;}
+                                        </tr>
+
+                                    }
+
+                                }
+                                else
+                                {
+                                    <tr>
+                                        <td colspan="3"> No record available..</td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            }
+        </section>
+
+
+
+
+    </div>
+    <script>
+        var el = document.getElementById("menuBar");
+        el.classList.remove("fixed-top");
+    </script>
+</div>

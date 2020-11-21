@@ -1,0 +1,540 @@
+﻿@page
+@model Blogmenia.Areas.Admin.Pages.BlogPost.UpsertModel
+@{
+    var photoPath = "~/mediaUpload/" + (Model.Post.FeaturedImg ?? "noimage.png");
+}
+
+@Html.AntiForgeryToken()
+<style>
+
+    .note-editable h2, .note-editable h3, .note-editable h4, .note-editable h5 {
+        margin-top: 50px !important;
+        font-weight: 600;
+        border-bottom: 1px solid rgba(0,0,0,.1) !important;
+        padding-bottom: 8px;
+        margin-bottom: 25px;
+    }
+
+    .note-editable h1, .note-editable h2, .note-editable h3, .note-editable h4 {
+        letter-spacing: 0 !important;
+    }
+
+
+    .note-editable pre {
+        display: block;
+        color: #212529;
+        border-radius: 4px;
+        padding: 10px;
+        background-color: #eff0f1;
+    }
+
+    .ms-container {
+        width: 280px !important;
+    }
+
+        .ms-container .ms-selectable li.ms-elem-selectable, .ms-container .ms-selection li.ms-elem-selection {
+            padding: 2px 5px !important;
+            color: #555;
+            font-size: 12px !important;
+        }
+
+
+
+    .modal-dialog {
+        max-width: 80%;
+        margin: 1.75rem auto;
+    }
+
+
+    .availableImg.selected {
+        border: 2px dashed black;
+    }
+
+        .availableImg.selected:hover {
+            border: 2px dashed black;
+        }
+
+    .availableImg {
+        width: 200px;
+        padding: 10px;
+        border: 2px dashed white;
+    }
+
+        .availableImg:hover {
+            border: 2px dashed #e2e2e2;
+        }
+
+    #dvImageHolder {
+        color: black;
+    }
+
+    #dvImglist {
+        color: black;
+    }
+</style>
+<link href="~/lib/multiselect/multi-select.css" rel="stylesheet" />
+<div id="dvHolder" class="container-fluid p-0" style="display: none;">
+
+    <div class="row mb-2">
+        <div class="col-md-8">
+            <h3 class="h3 mb-3">Post Add / Update </h3>
+            @if (Model.Message != null)
+            {
+
+
+                <div class="alert alert-success alert-dismissible" role="alert">
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    @Model.Message
+                </div>
+            }
+        </div>
+        <div class="col-md-4">
+            <a asp-page="/Index" asp-area="" asp-route-slug="@Model.Post.Slug" target="_blank" class="btn btn-dark mb-2 text-white">Preview</a>
+            <a asp-page="./Upsert" class="btn btn-dark mb-2 text-white">Add New Post</a>
+            <a asp-page="./Index" class="btn btn-dark mb-2" s>View PostList</a>
+        </div>
+
+    </div>
+    <form method="post" enctype="multipart/form-data" onsubmit="return fnValidateOnSubmit()">
+        <input id="hdPostId" type="hidden" asp-for="Post.Id" />
+        <input id="hdMultiple_category" type="hidden" asp-for="Post.MultipleCategory" />
+
+
+        <input type="hidden" asp-for="Post.FeaturedImg" />
+        <input type="hidden" asp-for="Post.AuthorId" value="1" />
+        <input type="hidden" asp-for="Post.PublishDate" value="2020/09/09" />
+        <input type="hidden" asp-for="Post.CreatedDate" value="2020/09/09" />
+        <input type="hidden" asp-for="Post.ModifiedDate" value="2020/09/09" />
+        <div class="text-danger" asp-validation-summary="ModelOnly"></div>
+        <div class="row">
+            <div class="col-md-8 ibg_white">
+
+
+                <div class="form-group">
+                    <label>Title</label>
+                    <input asp-for="@Model.Post.Title" class="form-control" id="txtPostTitle" placeholder="Enter Title" />
+                    <span asp-validation-for="Post.Title" class="form-text text-danger"> </span>
+
+                </div>
+
+                <div class="input-group mb-2">
+                    <div class="input-group-prepend">
+                        <div class="input-group-text" style="line-height: 14px;padding-right:2px">https://example.com/</div>
+                    </div>
+                    <input asp-for="@Model.Post.Slug" class="form-control form-control-sm" id="txtSlug" placeholder="Enter slug" />
+                    <span asp-validation-for="@Model.Post.Slug" class="form-text text-danger"> </span>
+                </div>
+                <div id="dvPostContent" class="form-group ">
+
+                    <label>Content</label>
+                    <textarea id="txtContent" asp-for="@Model.Post.Content" class="form-control"></textarea>
+                    <span asp-validation-for="Post.Content" class="form-text text-danger"> </span>
+                </div>
+
+                <div class="form-group">
+                    <label>Meta Title</label>
+                    <input asp-for="Post.MetaTitle" class="form-control" />
+                    <span asp-validation-for="Post.MetaTitle" class="form-text text-danger"> </span>
+
+                </div>
+
+                <div class="form-group ">
+
+                    <label>Meta Keywords</label>
+                    <textarea asp-for="Post.MetaKeyword" class="form-control"></textarea>
+                    <span asp-validation-for="Post.MetaKeyword" class="form-text text-danger"> </span>
+                </div>
+                <div class="form-group ">
+
+                    <label>Meta Description</label>
+                    <textarea asp-for="Post.MetaDescription" class="form-control"></textarea>
+                    <span asp-validation-for="Post.MetaDescription" class="form-text text-danger"> </span>
+                </div>
+
+
+
+            </div>
+
+            <div class="col-md-4">
+
+                <div class="panel panel-default">
+
+                    <div class="panel-body">
+
+                        <div class="row">
+
+
+
+                            <div class="col form-group ">
+                                <label>Is Featured</label>
+                                <select asp-for="Post.IsFeatured" class="form-control">
+                                    <option value="N">No</option>
+                                    <option value="Y">Yes</option>
+                                </select>
+                            </div>
+                            <div class="col form-group ">
+                                <label>Status</label>
+                                <select asp-for="Post.Status" class="form-control mr-2">
+                                    <option value="draft">Draft</option>
+                                    <option value="publish">Publish</option>
+                                </select>
+                            </div>
+                            <div class="col  form-group">
+
+                                <button type="submit" class="btn btn-primary mb-2 mr-2">Save Changes</button>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+
+                    <div class="panel-body">
+
+                        <div class="row">
+                            <div class="col form-group ">
+                                <label>Category</label>
+                                <select asp-for="Post.PrimaryCategoryId" class="form-control"
+                                        asp-items="@Model.CategoryNameSL">
+                                    <option value="">-- Select Catedory --</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <label>Select Multiple Category</label>
+
+
+                                <select multiple="multiple" id="multiSelectCategory"
+                                        asp-items="@Model.CategoryNameSL" class="form-control">
+                                </select>
+
+                            </div>
+
+                        </div>
+                        <div class="row">
+                            <div class=" form-group ">
+                                <div class="custom-file">
+                                    <input asp-for="@Model.PhotoUpload" class="fileUpload">
+                                    <label class="fileLabel" for="customFile">Choose file</label>
+                                    <span asp-validation-for="@Model.Post.FeaturedImg"></span>
+
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <img class="imageThumbnail" src="@photoPath" asp-append-version="true" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+    </form>
+
+</div>
+
+@section Scripts{
+    <link href="~/Theme/iAdmin/asset/plugin/summernote/summernote-bs4.css" rel="stylesheet" />
+    <script src="~/Theme/iAdmin/asset/plugin/summernote/summernote-bs4.min.js"></script>
+    <script src="~/Theme/iAdmin/asset/plugin/summernote/summernote-image-attr.js"></script>
+    <script src="~/lib/multiselect/jquery.multi-select.js"></script>
+    <script type="text/javascript">
+
+        function fnValidateOnSubmit() {
+
+            $(".note-editable .imgClassP").removeAttr("src");
+            var filterContent = $(".note-editable").html();
+            $("#txtContent").summernote('code', filterContent);
+            $("#hdMultiple_category").val($("#multiSelectCategory").multiSelect().val());
+            // alert($("#hdMultiple_category").val());
+            return true;
+
+        }
+
+
+
+        $(document).ready(function () {
+
+
+
+
+            $('.fileUpload').on("change", function () {
+                var fileName = $(this).val().split("\\").pop();
+                $(this).next('.fileLabel').html(fileName);
+
+                var countFiles = $(this)[0].files.length;
+
+                var imgPath = $(this)[0].value;
+                var extn = imgPath.substring(imgPath.lastIndexOf('.') + 1).toLowerCase();
+
+                if (extn == "gif" || extn == "png" || extn == "jpg" || extn == "jpeg") {
+                    if (typeof (FileReader) != "undefined") {
+
+                        //loop for each file selected for uploaded.
+                        for (var i = 0; i < countFiles; i++) {
+
+                            var reader = new FileReader();
+                            reader.onload = function (e) {
+
+
+                                $(".imageThumbnail").attr("src", e.target.result);
+
+                            }
+                            reader.readAsDataURL($(this)[0].files[i]);
+                        }
+
+                    } else {
+                        alert("This browser does not support FileReader.");
+                    }
+                } else {
+                    alert("Pls select only images");
+                }
+            });
+
+            function slugify(string) {
+                const a = 'àáâäæãåāăąçćčđďèéêëēėęěğǵḧîïíīįìłḿñńǹňôöòóœøōõőṕŕřßśšşșťțûüùúūǘůűųẃẍÿýžźż·/_,:;'
+                const b = 'aaaaaaaaaacccddeeeeeeeegghiiiiiilmnnnnoooooooooprrsssssttuuuuuuuuuwxyyzzz------'
+                const p = new RegExp(a.split('').join('|'), 'g')
+
+                return string.toString().toLowerCase()
+                    .replace(/\s+/g, '-') // Replace spaces with -
+                    .replace(p, c => b.charAt(a.indexOf(c))) // Replace special characters
+                    .replace(/&/g, '-and-') // Replace & with 'and'
+                    .replace(/[^\w\-]+/g, '') // Remove all non-word characters
+                    .replace(/\-\-+/g, '-') // Replace multiple - with single -
+                    .replace(/^-+/, '') // Trim - from start of text
+                    .replace(/-+$/, '') // Trim - from end of text
+            }
+
+            $("#txtPostTitle").on('input', function () {
+
+                var strId = $("#hdPostId").val();
+
+                if (strId == "0") {
+                    var friendlySlug = slugify($(this).val());
+                    $("#txtSlug").val(friendlySlug);
+                }
+            });
+
+            var fnBtnHTML = function (context) {
+                var ui = $.summernote.ui;
+
+                // create button
+                var button = ui.button({
+                    contents: 'Html-Block',
+                    tooltip: 'Code block for HTML',
+                    click: function () {
+                        console.log();
+                        $('#txtContent').summernote('editor.pasteHTML', '<pre><code class="lang-html"> Place_your_HTML_code_here </code></pre>');
+                    }
+                });
+
+                return button.render();   // return button as jquery object
+            }
+
+            var fnBtnJS = function (context) {
+                var ui = $.summernote.ui;
+
+                // create button
+                var button = ui.button({
+                    contents: 'Js-Block',
+                    tooltip: 'Code block for JS',
+                    click: function () {
+
+                        $('#txtContent').summernote('editor.pasteHTML', '<pre><code class="lang-js"> Place_your_JS_code_here </code></pre>');
+                    }
+                });
+
+                return button.render();   // return button as jquery object
+            }
+
+            var fnBtnCSHARP = function (context) {
+                var ui = $.summernote.ui;
+
+                // create button
+                var button = ui.button({
+                    contents: 'C#-Block',
+                    tooltip: 'Code block for C#',
+                    click: function () {
+
+                        $('#txtContent').summernote('editor.pasteHTML', '<pre><code class="lang-cs"> Place_your_CHARP_code_here </code></pre>');
+                    }
+                });
+
+                return button.render();   // return button as jquery object
+            }
+
+
+            $("body").on('click', '#btnShowexistingImg', function () {
+                $("#dvImageHolder").remove();
+                fnGetImageList();
+            });
+
+            $('#txtContent').summernote({
+                height: 500,
+                toolbar: [
+                    ['style', ['style']],
+                    ['font', ['bold', 'italic', 'underline', 'superscript', 'subscript', 'strikethrough', 'clear']],
+                    //   ['fontname', ['fontname']],
+                    ['fontsize', ['fontsize']],
+                    ['color', ['color']],
+                    ['para', ['ul', 'ol', 'paragraph']],
+                    ['height', ['height']],
+                    ['table', ['table']],
+                    ['insert', ['link', 'picture', 'video', 'hr']],
+                    //   ['mybutton', ['fnBtnHTML', 'fnBtnJS','fnBtnCSHARP']],
+                    ['mybutton', ['btnHtml', 'btnJS', 'btnCSHARP']],
+                    ['view', ['codeview']]
+                    //,
+                    //  ['fontNames', ['Serif', 'Sans', 'Arial', 'Arial Black', 'Courier', 'Helvetica']],
+                    //   ['fontNamesIgnoreCheck', ['Courier', 'Nunito Sans']]
+                ],
+                buttons: {
+                    btnHtml: fnBtnHTML,
+                    btnJS: fnBtnJS,
+                    btnCSHARP: fnBtnCSHARP
+                },
+
+                callbacks: {
+                    onImageUpload: function (files) {
+                        for (let i = 0; i < files.length; i++) {
+                            UploadImage(files[i]);
+                        }
+                    },
+                    onInit: function () {
+                        $(".imgClassP").each(function () {
+                            var self = $(this);
+                            self.attr("src", self.attr("data-src"));
+                        });
+
+                        $(".note-icon-picture").on('click', function () {
+                            $("#dvImageHolder").remove();
+
+                            setTimeout(function () {
+
+                                alert($("#btnShowexistingImg").length);
+                                if ($("#btnShowexistingImg").length == 0) {
+                                    $(".note-group-image-url").after("<div id='btnShowexistingImg' class='btn btn-primary'>Show existing images</div>");
+                                } else {
+                                    $("#btnShowexistingImg").fadeIn();
+                                }
+                            }, 100);
+
+
+                        });
+                    }
+                },
+                popover: {
+                    image: [
+                        ['custom', ['imageAttributes']],
+                        ['imagesize', ['imageSize100', 'imageSize50', 'imageSize25']],
+                        ['float', ['floatLeft', 'floatRight', 'floatNone']],
+                        ['remove', ['removeMedia']]
+                    ],
+                },
+                lang: 'en-US', // Change to your chosen language
+                imageAttributes: {
+                    icon: '<i class="note-icon-pencil"/>',
+                    removeEmpty: false, // true = remove attributes | false = leave empty if present
+                    disableUpload: false // true = don't display Upload Options | Display Upload Options
+                }
+
+            });
+
+            $("body").on('click', '.availableImg', function () {
+
+                $('.availableImg').removeClass("selected");
+                $(this).addClass("selected");
+
+                $(".note-image-url").val($(this).attr("src"));
+
+                $(".note-image-btn").prop('disabled', false);
+            });
+
+            function fnGetImageList() {
+
+                var url = "/Admin/BlogPost/Upsert?handler=ImageList";
+
+                $.get(url, function (data, status) {
+
+                    var fragmentHTML = "";
+                    $.each(data, function (i, v) {
+
+                        var imgurl = "https://localhost:44317/mediaUpload/article/" + data[i].name;
+
+                        fragmentHTML += "<img class='availableImg' src='" + imgurl + "' />";
+                    });
+                    $("#btnShowexistingImg").hide();
+                    $(".note-group-image-url").after('<div id="dvImageHolder" class="form-group"> <label class="note-form-label">Select from uploaded images</label> <div id="dvImglist">' + fragmentHTML + ' </div></div>');
+                });
+
+
+            }
+
+
+            function UploadImage(file) {
+                console.log(file);
+                var url = "/Admin/BlogPost/Upsert?handler=MyUploader";
+                formData = new FormData();
+                formData.append("MyUploader", file);
+                jQuery.ajax({
+                    type: 'POST',
+                    url: url,
+                    data: formData,
+                    cache: false,
+                    contentType: false,
+                    processData: false,
+                    beforeSend: function (xhr) {
+                        xhr.setRequestHeader("XSRF-TOKEN",
+                            $('input:hidden[name="__RequestVerificationToken"]').val());
+                    },
+                    success: function (FileUrl) {
+                        console.log(FileUrl);
+                        var imgNode = document.createElement('img');
+                        // imgNode.src = "/mediaUpload/" + FileUrl.url;
+                        //imgNode.data-src = "/mediaUpload/" + FileUrl.url;
+                        imgNode.setAttribute('data-src', "/mediaUpload/" + FileUrl.url);
+                        imgNode.setAttribute('src', "/mediaUpload/" + FileUrl.url);
+                        imgNode.setAttribute('class', 'imgClassP');
+                        $('#txtContent').summernote('insertNode', imgNode);
+                    },
+                    error: function (data) {
+                        //  alert(data.responseText);
+                        console.log(data)
+                    }
+                });
+            }
+
+
+
+            $("#dvHolder").fadeIn(600);
+
+            $('#multiSelectCategory').multiSelect();
+
+            var AllCategoryIds = $("#hdMultiple_category").val().split(",");
+            // console.log(AllCategoryIds);
+            // alert(AllCategoryIds);
+
+            $('#multiSelectCategory').multiSelect('select', AllCategoryIds);
+
+
+
+            // This will set `ignore` for all validation calls
+            jQuery.validator.setDefaults({
+                // This will ignore all hidden elements alongside `contenteditable` elements
+                // that have no `name` attribute
+                ignore: ":hidden, [contenteditable='true']:not([name])"
+            });
+        });
+    </script>
+    <partial name="_ValidationScriptsPartial" />
+
+    @*@{await Html.RenderPartialAsync("_ValidationScriptsPartial"); }*@
+
+
+}

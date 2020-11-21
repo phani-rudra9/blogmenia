@@ -1,0 +1,289 @@
+﻿@page "{slug?}"
+@model Blogmenia.Pages.editor_example.IndexModel
+@{
+}
+
+@if (Request.QueryString.HasValue || RouteData.Values["slug"] != null)
+{
+    <style type="text/css">
+
+
+        .bkTitle {
+            float: left;
+            margin-bottom: 10px;
+            margin-top: -5px
+        }
+
+        .df, .myF_lft, .mySubHd {
+            float: left
+        }
+
+        #myContentHolder {
+            background-color: #f1f1f1
+        }
+
+        .df {
+            min-height: 100px;
+            width: 100%
+        }
+
+        .myIframecontainer, .myTextareacontainer {
+            float: left;
+            height: 100%;
+            width: 50%
+        }
+
+        .myIframe, .myTextarea {
+            height: 100%;
+            padding: 15px
+        }
+
+        .mySubHd {
+            width: 10%;
+            height: 30px
+        }
+
+        .myF_rgt {
+            float: right;
+            padding-right: 15px
+        }
+
+        #myIframewrapper, #myTextareawrapper {
+            background-color: #fff;
+            box-shadow: 0 1px 3px rgba(0,0,0,.12),0 1px 2px rgba(0,0,0,.24);
+            float: left;
+            height: 400px;
+            margin-bottom: 25px;
+            width: 100%
+        }
+
+        #myTextareaCode {
+            background-color: #fff;
+            border: none;
+            font-family: consolas,"courier new",monospace;
+            font-size: 15px;
+            height: 94%;
+            padding: 8px;
+            resize: none;
+            width: 100%;
+            float: left
+        }
+
+        .vkHeader {
+            float: left;
+            height: 25px;
+            margin-bottom: 10px;
+            width: 100%
+        }
+
+        #iframeResult, #iframeSource {
+            background-color: #fff;
+            height: 100%;
+            width: 100%
+        }
+
+        .btnRunCode {
+            background-color: #f44336;
+            border: none;
+            border-radius: 4px;
+            color: #fff;
+            cursor: pointer;
+            padding: 5px;
+            padding-right: 10px;
+            padding-left: 10px;
+            transition: background-color .3s ease 0s
+        }
+
+            .btnRunCode:hover {
+                background-color: #222
+            }
+
+        .btn {
+            display: inline-block;
+            padding: 6px 12px;
+            margin-bottom: 0;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 1.42857143;
+            text-align: center;
+            white-space: nowrap;
+            vertical-align: middle;
+            -ms-touch-action: manipulation;
+            touch-action: manipulation;
+            cursor: pointer;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+            background-image: none;
+            border: 1px solid transparent;
+            border-radius: 4px
+        }
+
+        .btn-danger {
+            color: #fff;
+            background-color: #d9534f;
+            border-color: #d43f3a
+        }
+
+        .btn-success {
+            color: #fff;
+            background-color: #5cb85c;
+            border-color: #4cae4c
+        }
+
+        .btn-warning {
+            color: #fff;
+            background-color: #f0ad4e;
+            border-color: #eea236
+        }
+
+        .btn-info {
+            color: #fff;
+            background-color: #5bc0de;
+            border-color: #46b8da
+        }
+
+        table {
+            border-spacing: 0;
+            border-collapse: collapse
+        }
+
+        .table {
+            width: 70%;
+            max-width: 70%;
+            margin-bottom: 20px
+        }
+
+            .table > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td, .table > tfoot > tr > th, .table > thead > tr > td, .table > thead > tr > th {
+                padding: 8px;
+                line-height: 1.42857143;
+                vertical-align: top;
+                border-top: 1px solid #ddd
+            }
+
+        th {
+            text-align: left
+        }
+
+        .table > thead > tr > th {
+            vertical-align: bottom;
+            border-bottom: 2px solid #ddd
+        }
+    </style>
+    <div class="container1 pt-2 pb-5 aos-init aos-animate" data-aos="fade-up">
+        <div class="row justify-content-center mr-2 ml-2 ">
+            <section class="pb-5 col pb-5 mb-5  aos-init aos-animate pl-2 pr-2" data-aos="fade">
+
+                @if (Model.demo != null)
+                {<div class="entry-content">
+                        <p><strong>Back to Tutorial : How to <a href="https://codepedia.info/set-hidden-field-value-jquery/" target="_blank" rel="noopener">set a hidden field value in jQuery</a></strong></p>
+                        <div id="vkWrapper">
+                            <div id="myHead" class="df">
+                            </div>
+                            <div class="df" id="myContentHolder">
+                                <div class="myTextareacontainer">
+                                    <div class="myTextarea">
+                                        <div class="vkHeader">
+                                            <div class="myF_lft">Edit This Code : </div>
+                                            <div class="myF_rgt"> <button class="btnRunCode" type="button" onclick="runCode()">See Result »</button> </div>
+                                        </div>
+                                        <div id="myTextareawrapper">
+<textarea class="code_input" spellcheck="false" id="myTextareaCode" autocomplete="off">
+@Model.demo.ContentBody
+ </textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="myIframecontainer">
+                                    <div class="myIframe">
+                                        <div class="vkHeader">
+                                            <div class="myF_lft">Result : </div>
+                                        </div>
+                                        <div id="myIframewrapper"><iframe frameborder="0" id="iframeResult"></iframe></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <style type="text/css">
+                            .td-main-content-wrap .td-container {
+                                width: 100% !important
+                            }
+                        </style>
+                        <script type="text/javascript">
+                            function runCode_1() { var text = document.getElementById("myTextareaCode").value; var ifr = document.createElement("iframe"); ifr.setAttribute("frameborder", "0"); ifr.setAttribute("id", "iframeResult"); document.getElementById("myIframewrapper").innerHTML = ""; document.getElementById("myIframewrapper").appendChild(ifr); var ifrw = (ifr.contentWindow) ? ifr.contentWindow : (ifr.contentDocument.document) ? ifr.contentDocument.document : ifr.contentDocument; ifrw.document.open(); ifrw.document.write(text); ifrw.document.close(); if (ifrw.document.body && !ifrw.document.body.isContentEditable) { ifrw.document.body.contentEditable = true; ifrw.document.body.contentEditable = false; } }
+                            runCode_1(); function runCode() { var text = document.getElementById("myTextareaCode").value; var ifr = document.createElement("iframe"); ifr.setAttribute("frameborder", "0"); ifr.setAttribute("id", "iframeResult"); document.getElementById("myIframewrapper").innerHTML = ""; document.getElementById("myIframewrapper").appendChild(ifr); var ifrw = (ifr.contentWindow) ? ifr.contentWindow : (ifr.contentDocument.document) ? ifr.contentDocument.document : ifr.contentDocument; ifrw.document.open(); ifrw.document.write(text); ifrw.document.close(); if (ifrw.document.body && !ifrw.document.body.isContentEditable) { ifrw.document.body.contentEditable = true; ifrw.document.body.contentEditable = false; } }</script><p></p>
+                        <p>&nbsp;</p>
+                    </div>
+
+                }
+                else
+                {
+
+                    <p class="text-center h5 pt-7 pb-7">
+                        Whoopss something went wrong!<br />
+                        Please visit our <a class="text-danger" asp-page="/editor-example/Index" asp-route-slug="" asp-area="">Demo List</a> to check the same.
+                    </p>
+                }
+            </section>
+        </div>
+    </div>
+    <script type="text/javascript">$(document).ready(function () { $('#iframeResult').load(function () { $('#iframeResult').contents().find("head").append($("<style type='text/css'> .btn{display:inline-block;padding:6px 12px;margin-bottom:0;font-size:14px;font-weight:400;line-height:1.42857143;text-align:center;white-space:nowrap;vertical-align:middle;-ms-touch-action:manipulation;touch-action:manipulation;cursor:pointer;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;background-image:none;border:1px solid transparent;border-radius:4px}.btn-danger{color:#fff;background-color:#d9534f;border-color:#d43f3a}.btn-success{color:#fff;background-color:#5cb85c;border-color:#4cae4c}.btn-warning{color:#fff;background-color:#f0ad4e;border-color:#eea236}.btn-info{color:#fff;background-color:#5bc0de;border-color:#46b8da}table{border-spacing:0;border-collapse:collapse}.table{width:70%;max-width:70%;margin-bottom:20px}.table>tbody>tr>td,.table>tbody>tr>th,.table>tfoot>tr>td,.table>tfoot>tr>th,.table>thead>tr>td,.table>thead>tr>th{padding:8px;line-height:1.42857143;vertical-align:top;border-top:1px solid #ddd}th{text-align:left}.table>thead>tr>th{vertical-align:bottom;border-bottom:2px solid #ddd} </style>")); }); });</script>
+    <script>
+        var el = document.getElementById("menuBar");
+        el.classList.remove("fixed-top");
+    </script>
+
+}
+else if (RouteData.Values["slug"] == null)
+{
+
+
+
+    <div class="container pt-5 pb-5 aos-init aos-animate">
+        <div class="row justify-content-center">
+            <section class="pb-5 col pb-5 mb-5 aos-init aos-animate">
+                <div class="container">
+                    <div class="col-md-10 col-sm-12 offset-md-1">
+                        <h4 class="section_title text-dark">List of Demos </h4>
+                        <div class="row gap-y">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th style="width:10px;" scope="col">#</th>
+                                        <th scope="col"> Description </th>
+                                        <th style="width:125px;" class="text-center" scope="col"> View</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @{
+                                        var i = 1;
+                                        foreach (var item in Model.demoList)
+                                        {
+                                            <tr><td scope="row"> @i	</td><td> @item.Slug </td><td class="text-center"> <a href="/editor-example?id=@item.DemoId" target="_blank" class="btn btn-sm btn-outline-danger">View</a></td>@{i++;}</tr>
+
+                                        }
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+}
+else
+{
+
+    <div class="container pt-5 pb-5 aos-init aos-animate">
+        <div class="row justify-content-center">
+            <section class="pb-5 col pb-5 mb-5 aos-init aos-animate">
+                <p class="text-center h5 pt-7 pb-7">
+                    Whoopss something went wrong!<br />
+                    Please visit our <a class="text-danger" asp-page="/editor-example/Index" asp-route-slug="" asp-area="">Demo List</a> to check the same.
+                </p>
+            </section>
+        </div>
+    </div>
+}
